@@ -1,4 +1,4 @@
-//1
+//1 -------------------------
 function somarArray(arr){
     let soma = 0
     arr.forEach(element => {
@@ -8,7 +8,8 @@ function somarArray(arr){
 }
 console.log(somarArray([1,2,3,4,5,6,7,8,9]))
 
-//2
+
+//2 ------------------------
 function numeroPrimo(num){
     let primo = false
     if (num%2 == 0) primo = true
@@ -17,7 +18,8 @@ function numeroPrimo(num){
 }
 console.log(numeroPrimo(3))
 
-//3
+
+//3 ------------------------
 function contarVogais(str){
     let vogais = ['a','e','i','o','u']
     let cnt = 0
@@ -32,7 +34,7 @@ function contarVogais(str){
 }
 console.log(contarVogais('ola mundo'))
 
-//4
+//4 --------------------------
 function inverterString(p){
     let invert = '';
     for (let i = p.length; i >= 0; i--) {
@@ -43,7 +45,8 @@ function inverterString(p){
 }
 console.log(inverterString('Barcelona'))
 
-//5 
+
+//5 --------------------------
 function  fatorial(num){
     let fatorial = num
     for (let i = num-1; i > 1; i--) {
@@ -53,8 +56,8 @@ function  fatorial(num){
 }
 console.log(fatorial(6))
 
-//6
 
+//6 -------------------------
 function maiorNumero(arr){
     let maior = arr[0]
     arr.forEach(element => {
@@ -65,7 +68,8 @@ function maiorNumero(arr){
 }
 console.log(maiorNumero([3,5,1,0,20,2, 5*5,3.14159265359]))
 
-//7
+
+//7 --------------------------
 function palindromo(str){
     let invert = '';
     let palindromo = false
@@ -78,15 +82,16 @@ return palindromo
 
 console.log(palindromo('bola'))
 
-//8
+
+//8 --------------------------
 function ordenarArray(arr){
     return arr.sort((a,b)=>a-b) 
 }
 console.log(ordenarArray([3, 1,25,10, 4, 2, 5]))
 
 
-//9
 
+//9 ---------------------------
 function contarOcorrencias(str, char){
        let vogais = ['a','e','i','o','u']
     let cnt = 0
@@ -101,7 +106,9 @@ function contarOcorrencias(str, char){
 } 
 console.log(contarOcorrencias('ola mundo', 'o'))
 
-//10
+
+
+//10 ---------------------------
 function  mediaArray(arr){
     let media = 0
     arr.forEach(e =>{
